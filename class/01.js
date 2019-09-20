@@ -1,5 +1,5 @@
 const app = new Vue({
-    el: '#app',
+    el: '#app1',
     data: {
         titulo: 'Hola con Vue',
         frutas: ['Manzana', 'Pera', 'Platano'],
@@ -35,4 +35,14 @@ const app = new Vue({
             return this.totalFrutas;
         }
     }
+});
+
+const app2 = new Vue({
+    el: '#app2',
+    data: {
+        fondo: 'bg-warning',
+        color: false
+    },
+    methods: {},
+    computed: {}
 });
